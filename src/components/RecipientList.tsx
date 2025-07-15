@@ -113,7 +113,7 @@ export const RecipientList: React.FC<RecipientListProps> = ({ recipients, onReci
           </div>
         </div>
         
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <button
             onClick={downloadTemplate}
             className="bg-white/10 hover:bg-white/20 text-white p-2 rounded-lg transition-colors duration-200"
@@ -135,7 +135,7 @@ export const RecipientList: React.FC<RecipientListProps> = ({ recipients, onReci
             onChange={handleFileUpload}
             className="hidden"
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="space-y-4 mb-6">
